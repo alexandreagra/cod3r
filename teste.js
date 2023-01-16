@@ -1,14 +1,11 @@
-var lines = input.split('\n');
+function soma (...valores) {
+    var total = 0
 
-const nome = lines.shift();
-let salario = parseFloat(lines.shift());
-let totVendas = parseFloat(lines.shift());
-let totCom = totVendas * 0.15;
-let salarioFinal = salario + totCom;
+    for (const item of valores) {
+      total += parseInt(item)  
+    }
 
-console.log("TOTAL = R$ " + salarioFinal.toFixed(2));
+    return total
+  }
 
-
-
-
-//ganha 15% sobre vendas - toFixed(2)
+  console.log(soma(1, 2, 3, 4, 50, 10, 23))
