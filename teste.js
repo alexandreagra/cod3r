@@ -1,11 +1,10 @@
-function soma (...valores) {
-    var total = 0
-
-    for (const item of valores) {
-      total += parseInt(item)  
-    }
-
-    return total
+const dadosJocelly = {
+  nome: 'jocelly',
+  idade: 30,
+  cpf: 10144400413,
+  jocellyReformada2023() {
+    return 'botoxBunda'
   }
+}
 
-  console.log(soma(1, 2, 3, 4, 50, 10, 23))
+console.log(dadosJocelly.jocellyReformada2023())
