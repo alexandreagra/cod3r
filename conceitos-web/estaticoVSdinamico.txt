@@ -1,0 +1,7 @@
+Conteúdo estático: quando o servidor, para renderizar uma página, ele lê os arquivos do disco (estáticos). Renderização a partir de arquivos que foram gerados a partir de arquivos físicos do servidor-web. Lê arquivos e devolve
+
+Conteúdo dinâmico: É gerado a partir de um código.
+
+Resumidamente: um server pode gerar conteúdo estático com base em uma página criada dinamicamente.
+
+Por exemplo, se você trabalha com um framework de desenvolvimento front-end, esse framework vai sim criar a página de maneira dinâmica no lado do servidor, por exemplo renderizando uma lista de produtos ou clientes, mas uma vez que esse conteúdo dinâmico gerado pelo framework seja passado para o cliente, ele se torna estático se o servidor não realizar mais ações que alterem aquela página dinamicamente.

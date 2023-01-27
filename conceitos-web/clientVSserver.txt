@@ -1,0 +1,5 @@
+Aplicação server side: é uma aplicação onde a lógica e renderização são processadas no lado do servidor. o conteúdo HTML é gerado a partir do lado do servidor e manda a informação pra ser renderizada pelo browser.
+
+Aplicação client side: aplicação rica onde acessa o servidor para obter dados. As linguagens client-side são linguagens onde apenas o seu NAVEGADOR vai entender. Conceito SPA (single page aplication). web services geram dados em formato JSON (por exemplo), de forma dinâmica. 
+
+

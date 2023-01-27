@@ -1,0 +1,17 @@
+HTTPS
+
+HTTP + TLS - transport layer security protocol (evolução do SSL)
+HTTP + SSL - secure sockets layer protocol
+
+HTTP Seguro:
+
+* Dados criptografados usando os protocolos TLS ou SSL
+* Protege contra interceptação (MITM)
+* Criptografa todas as informações: URL, cookies e headers
+* Usa certificados digitais 
+
+Autoridade certificadora:
+
+* Organizações que emitem e validam os certificados, possibilitando a instalação e habilitação do HTTP seguro. Ex: lets Encrypt (gratuito), certbot (automatiza a instalação do certificado digital)
+
+CERTIFICADOS DEVEM SER INSTALADOS!

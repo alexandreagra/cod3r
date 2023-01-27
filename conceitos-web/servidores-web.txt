@@ -1,0 +1,56 @@
+Servidores WEB
+exemplos: 
+
+Apache 
+GoLang
+NodeJS 
+
+_________________________________________
+WEB e DNS
+
+exemplo estrutural: 
+
+cliente: "www.cod3r.com.br" (domínio)
+Web server: "23.67.100.3"
+
+DNS server: "8.8.8.8"
+
+_________________________________________
+
+Virtual Hosting
+
+Web Server {
+    - www.site1.com,
+    - www.site2.com,
+    - www.site3.com
+}
+
+__________________________________________
+
+Estrutura de pastas
+
+Web server {
+    imagens,
+    css, 
+    js,
+    index.html,
+    about.html
+}
+
+É POSSÍVEL UM ÚNICO SERVIDOR PARA ATENDER VÁRIOS ENDEREÇOS. Também podem existir vários servidores para atender um site só (altas demandas), dividindo a aplicação em pastas, ex:
+
+Server 1 {
+    Html,
+    css
+}
+
+Server 2 {
+    javascript,
+}
+
+WEB STACK
+
+LAMP: Linux, Apache, MySQL e PHP.
+
+
+

@@ -1,0 +1,25 @@
+Um Web service é utilizado para transferir dados através de protocolos de comunicação para diferentes plataformas, independentemente das linguagens de programação utilizadas nessas plataformas. Os Web services funcionam com qualquer sistema operativo, plataforma de hardware ou linguagem de programação de suporte Web.
+
+**Qual a diferença de API e web service?
+
+Qual a diferença entre uma API e um Webservice? A principal diferença da API para o webservice está no tipo de protocolo de comunicação. Enquanto o webservice é usado para REST, SOAP e XML-RPC, a API é utilizada para qualquer padrão de endpoint de comunicação entre sistemas.
+
+WEB SERVICE SOAP (Simple Object Access Protocol) - WSDL, RPC (remote procedure call), XML, burocrático!
+WEB SERVICE REST (Representational State Transfer)- JSON, HTTP, simples!
+
+
+Convenções RESTful
+
+**Ver imagem CRUD** (Create, Read, Update, Delete) - imagem-1.png
+
+__________________________________________________________________
+
+SOA – Arquitetura orientada a Serviços
+
+Microserviços - pegar uma aplicação maior e quebrar ela em pequenos modulos auto-contidos. 
+
+EX:no spotify, existem equipes para cada parte do serviço (categorização de musicas, manutenção de playlists, design, layout etc.)
+
+Rest - via de regra, trabalha com JSON, que inclusive retorna dados para webservices.
+
+O foco do curso é específico em webservices do tipo REST!

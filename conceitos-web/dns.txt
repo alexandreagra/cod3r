@@ -1,0 +1,26 @@
+www.cod3r.com.br
+
+www: subdomínio
+cod3r.com.br: domínio
+
+
+O DNS funciona sobre o protocolo UDP na porta 53
+
+como funciona o DNS (Domain Name System), que converte nomes de domínio legíveis por humanos (por exemplo, www.amazon.com) em endereços IP legíveis por máquina (por exemplo, 192.0.2.44).
+
+1. O usuário informa o endereço no browser
+2. Computador envia uma consulta DNS para o servidor local
+3. O servidor responde como o endereço IP
+4. Computador acessa o servidor a partir do IP obtido.
+
+Busca recursiva: passa para um DNS primário, que vai passando por outros servidores DNS até que encontre o endereço e retorne para o client.
+
+Busca interativa: O DNS client faz uma requisição e o servidor, ao invés de retornar um endereço, para a referência de um outro servidor DNS para atender a demanda. Ex: um servidor americano, detecta o ".br" e passa a informação para um servidor DNS nativo. 
+
+DNS: records
+
+* A - IPv4
+* AAAA - IPv6
+* MX - Servidor de Email
+* NS - Servidor DNS (outro DNS)
+* CNAME - Canonical Name (Apelido)
